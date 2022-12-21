@@ -8,8 +8,18 @@ You will find in this repo a dataset [ images + annotations (Yolov7 format)] whi
 
 MPID stands for Merged public insulator dataset. 
 It is an open-source public dataset of real-world multi-type insulators for high voltage power line inspection by drone.
-The goal of MPID is to address the challenge faced by researchers in this field. It attempts to address the lack of diverse public data that best represents the deployment environment. MPID is built by merging diverse datasets of insulator images taken during drone inspections of transmission lines. We form a set of insulator images from different times of the day, different seasons, different weather, different lighting, different angles, different cameras, and different regions of the world. But also, from different types and conditions. We collect 3 types of insulators including glass, porcelain and composite insulators. Some of the images contain insulators that have anomalies and others do not.
-
+The goal of MPID is to address the challenge faced by researchers in this field. It attempts to address the lack of diverse public data that best represents the deployment environment. MPID is built by merging diverse datasets of insulator images taken during drone inspections of transmission lines (see table 1). We form a set of insulator images from different times of the day, different seasons, different weather, different lighting, different angles, different cameras, and different regions of the world. But also, from different types and conditions. We collect 3 types of insulators including glass, porcelain and composite insulators. Some of the images contain insulators that have anomalies and others do not.
+Once the images are collected, we clean up the images that are not of inter-
+est and label the insulators with rectangular bounding boxes, on some images
+that did not have labels. We use pre-trained models to detect the insulators on
+the unlabeled images (Semi-automatic Annotation). And we correct the accu-
+racy and consistency of the labels to ensure that all insulator instances are
+labeled on the images and that the labels are tightly wrapped on each insu-
+lator. We also check that each label corresponds to the right insulator family.
+We use the Roboflow platform for this job and we export results under
+Yolov7 annotation format. Finally, we form MPID. A merged open source
+dataset of real-world multi-type insulators for power line inspection by UAV
+fully annotated in the YOLO format. 
 ![image](https://user-images.githubusercontent.com/82882383/208925730-d7554ba2-b049-4f42-a8c1-661b40fc9e70.png)
 
 
