@@ -17,7 +17,7 @@ that did not have labels. We use pre-trained models to detect the insulators ont
 ![image](https://user-images.githubusercontent.com/82882383/208925730-d7554ba2-b049-4f42-a8c1-661b40fc9e70.png)
 
 
-#### You can find MPID in the google drive link : https://drive.google.com/drive/folders/1HfByI7MaTWUkrbozej27tye3aAKKJQMy?usp=sharing . All the images are under the CC by 4.0 license. You will find three different folders; one for each type (glass, porcelain and composite). In each folder, you will find the images and their labels in the Yolo format.
+#### You can find MPID in the google drive link : https://drive.google.com/drive/folders/1HfByI7MaTWUkrbozej27tye3aAKKJQMy?usp=sharing . All the images are under the CC by 4.0 license. You will find three different folders; one for each type (glass, porcelain and composite). In each folder, you will find the images and their labels in the Yolo format.  Please feel free to contact me if you need any further information.
 
 Reference
 
