@@ -17,7 +17,7 @@ that did not have labels. We use pre-trained models to detect the insulators ont
 ![image](https://user-images.githubusercontent.com/82882383/208925730-d7554ba2-b049-4f42-a8c1-661b40fc9e70.png)
 
 
-You can find the broken glass insulator dataset in the release part. https://github.com/phd-benel/BGI/releases/tag/dataset All the images are under the CC by 4.0 license.
+#### You can find the broken glass insulator dataset in the google drive link : XXX . All the images are under the CC by 4.0 license.
 
 Reference
 
